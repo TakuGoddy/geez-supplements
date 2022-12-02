@@ -1,0 +1,88 @@
+body {
+	max-width: 3000px;
+	float: up;
+	margin: 50;
+}
+header {
+	width: 100%;
+	display: block;
+}
+.aside-left {
+	width:30%
+	float: left;
+	display: block;
+    min-height: 10px;
+}	
+main {
+    width: 33%;
+	float: left;
+	display: block;
+	min-height: 300px;
+}
+aside {
+	width: 30%;
+	float: right;
+	display: block;
+	min-height: 300px
+}
+footer {
+	width: 100%;
+	display: inline-block;
+}
+.left-footer {
+    width: 30%;
+    float: left;
+    display: block;
+	min-height: 200px;
+}
+.center-footer {
+    width: 33%;
+    float: left;
+    display: block;
+	min-height: 200px;
+}
+.right-footer {
+    width: 33%;
+    float: left;
+    display: block;
+	min-height: 200px;
+}
+.copyright {
+	width: 100%;
+	display: inline-block;
+}
+/* Menu Css */
+
+.topnav {
+	background-color: #00007f;
+	overflow: hidden;
+}
+	
+/*Style the links inside the navigation bar */
+.topnav a {
+	float: caption-side;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px:
+	text-decoration: navy;
+	font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+/* Add an active class to highlight the current page */
+.active {
+	background-color:#4CAF50;
+	color: white;
+}
+
+/* Hide the link that should be open and close the topnav on small screen */
+.topnav .icon {
+	display: none;
+}
+
+
+	
